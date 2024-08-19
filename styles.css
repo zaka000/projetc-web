@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    background-color: #6B4E9F;
+    align-items: center;
+    width: 100%;
+    height: 97px;
+    
+    .logo {
+        display: flex;
+        height: 73px;
+        width: 310px;
+        background: url(logo.png) no-repeat;
+        margin-left: 67px;
+        margin-top: 10px;
+    }
+    ul{
+        display: flex;
+        font-size: 30px;
+        margin-left: 850px;
+        gap: 30px;
+        list-style: none;
+    }
+
+    .Home{
+        color: #F5D247;
+    }
+}
+        
+.main-first{
+    display: flex;
+    width: 100%;
+    height: 634px;
+    background-color: aliceblue;
+    align-items: center;
+    
+    .main-content {
+        display: flex;
+        padding: 80px;
+    }
+    .img{
+        display: flex;
+        height: 501px;
+        width: 516px;
+        background: url("main-img.png") no-repeat;
+        background-size: contain;
+        margin-left: 210px;
+        margin-bottom: 64px;
+        margin-top: 61px;
+    }
+    .img-text {
+        display: flex;
+        height: 73px;
+        width: 333px;
+        background: url(main-logo.png) no-repeat;
+        background-size: contain;
+        margin-top: 114px;
+    }
+    h1{
+        font-size: 50px;
+        margin-top: 24px;
+    }
+    .presentation{
+        width: 730px;
+        margin-top: 24px;
+    }
+    ul{
+        list-style: none;
+        word-break: calc(4)
+    };
+    .button-equipe {
+
+
+    }
+        
+        
+        
+        
+        
+        
+        
+        
+
+}
+        
+.color-line{
+    background: url(color-line.png) ;
+    width: 100%;
+    height: 6px;
+}    
+
+.about-us{
+    display: flex;
+    height: 552px;
+    width: 100%;
+    background-color: #6B4E9F;
+
+
+    .second-content{
+        display: flex;
+
+    }
+
+    .img-second{
+        height: 286px;
+        width: 800px;
+        background: url(second-main.png) no-repeat;
+        margin-top: 136px;
+        margin-left: 64px;
+        
+    }
+    .second-text{
+        width: 400px;
+        height: 400px;
+
+    }
+    ul{
+        margin-top: 50px;
+        margin-left: 150px;
+        list-style: none;
+        
+
+        .paragraph-two{
+            font-size: 50px;
+            color: #F5D247;
+        }
+
+        .li-2-text1{
+            margin-top: 20px;
+            width: 630px;
+            font-size: small;
+            color: #FFFFFF;
+            
+        }
+
+        .li-2-text2{
+            margin-top: 36px;
+            width: 590px;
+            font-size: small;
+            color: #FFFFFF;
+        }
+    }
+
+        
+
+}
+
+.team{
+    
+}
+        
+    
+    
+
+
+
+        
+
